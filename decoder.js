@@ -73,8 +73,8 @@ $(document.body).ready(function () {
     var $outpills = $output.children("p.pills");
 
     cc = _.map(wm, function (w) {
-        return w == " " ? CM[w] : CM[w.length >= MAX];
-        //return w + " ";
+        //return w == " " ? CM[w] : CM[w.length >= MAX];
+        return w + " ";
     });
     cc = cc.join("");
     console.log(cc);
