@@ -64,7 +64,7 @@ $(document.body).ready(function () {
     var am = "MESSAGE INCOMPLETE - <a class='alert-link' href='https://en.wikipedia.org/wiki/Special:Random'>TRY ANOTHER PAGE</a>";
     if (wm.length == c.length) {
         acr = "alert-success";
-        am = "HIDDEN MESSAGE FOUND";
+        am = "HIDDEN MESSAGE FOUND - <a class='alert-link' href='https://en.wikipedia.org/wiki/Special:Random'>TRY ANOTHER PAGE?</a>";
     }
     $output.children(".alert")
         .removeClass("alert-success", "alert-danger").addClass(acr)
