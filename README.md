@@ -58,7 +58,7 @@ Otro truco muy útil son los **script snippets**. En vez de copiar/pegar codigo 
 
 Como sabrás, te escondimos un mensaje secreto en Wikipedia. 
 
-El mensaje es cási **mágico** (literalmente). Cuando estés en una página compatible, el mensaje aparecerá en el tope de la página si ejecutas los comandos correctos en la cónsola de Javascript.
+El mensaje es cási **mágico** (literalmente). Cuando estés en una página compatible, el mensaje aparecerá en el tope si ejecutas los comandos correctos de Javascript.
 
 ### Será que puedes conseguir algo más en este repo que te ayudará a encontrar el mensaje secreto ?
 
