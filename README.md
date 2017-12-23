@@ -50,6 +50,10 @@ Prueba con los siguientes bloques (puedes hacer uno a la vez o todos juntos):
 
 ```
 
+Otro truco muy útil son los **script snippets**. En vez de copiar/pegar codigo en la cónsola, puedes crear snippets y correrlos cuando quieras. 
+
+![Snippets](https://github.com/Henddher/Scanvenger-Hunt/blob/master/Screen%20Shot%202017-12-23%20at%204.57.11%20PM.png)
+
 ### Tu Misión
 
 Como sabrás, te escondimos un mensaje secreto en Wikipedia. 
