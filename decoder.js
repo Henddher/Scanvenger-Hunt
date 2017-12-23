@@ -61,14 +61,14 @@ $(document.body).ready(function () {
     console.log(wm.length, c.length);
 
     var acr = "alert-danger";
-    var am = "MESSAGE INCOMPLETE - TRY ANOTHER PAGE";
+    var am = "MESSAGE INCOMPLETE - <a class='alert-link' href='https://en.wikipedia.org/wiki/Special:Random'>TRY ANOTHER PAGE</a>";
     if (wm.length == c.length) {
         acr = "alert-success";
         am = "HIDDEN MESSAGE FOUND";
     }
     $output.children(".alert")
         .removeClass("alert-success", "alert-danger").addClass(acr)
-        .text(am);
+        .html(am);
 
     var $outpills = $output.children("p.pills");
 
